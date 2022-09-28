@@ -3,7 +3,7 @@ import {useFonts, Roboto_400Regular, Roboto_700Bold} from '@expo-google-fonts/ro
 import { THEME } from './src/styles/theme';
 import { Loading } from './src/components/Loadings';
 import React from 'react';
-import { Home } from './src/screens/Home';
+import { Routes } from './src/routes';
 
 export default function App() {
 
@@ -11,7 +11,7 @@ export default function App() {
   return (
     <NativeBaseProvider theme={THEME}>
 
-      { fontsLoaded ? < Home /> : < Loading />}
+      { fontsLoaded ? < Routes /> : < Loading />}
       
     </NativeBaseProvider>
   );
