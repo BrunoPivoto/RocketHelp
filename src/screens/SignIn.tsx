@@ -14,6 +14,7 @@ export function SignIn() {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
 
+    const nomeEmail = email.split('@');
     const { colors } = useTheme();
 
     function handleSignIn() {
@@ -38,12 +39,13 @@ export function SignIn() {
 
     }
     return (
+        
         <VStack flex={1} alignItems="center" bg="gray.600" px={8} pt={24}>
 
             <Logo />
 
             <Heading color="gray.100" fontSize="2xl" mb={6} mt={20}>
-                Acesse sua conta {email}
+                Acesse sua conta {nomeEmail[0]}
             </Heading>
 
             <Input
