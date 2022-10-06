@@ -51,7 +51,7 @@ $ npm run ios
 
 ---
 
-## 👥 Autor
+##  Autor
 <img style="border-radius: 20%;" src="https://avatars.githubusercontent.com/u/75286020?v=4" width="120px;" alt="120px"/><br>
 **Bruno Pivoto**
 
@@ -59,7 +59,7 @@ $ npm run ios
 
 
 ---
-## 📝 License
+##  License
 [![License](https://img.shields.io/apm/l/vim-mode?color=blue)](http://badges.mit-license.org)
 
 - **[MIT license](https://choosealicense.com/licenses/mit/)**
